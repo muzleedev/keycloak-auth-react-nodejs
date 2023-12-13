@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 
 import { Loading } from 'src/components/Loading'
 
-export const ProtectedRoute = () => {
+export const ProtectedRoutes = () => {
     const { initialized, keycloak } = useKeycloak()
 
     useEffect(() => {
